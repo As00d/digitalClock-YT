@@ -54,7 +54,6 @@ let calculateCurrentTime = function () {
   ampm.textContent = ifam;
 
   let minutes = document.getElementById("minute");
-  console.log(date.getMinutes());
   if (date.getMinutes() < 10) {
     minutes.textContent = "0" + date.getMinutes();
   } else {
